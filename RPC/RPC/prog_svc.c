@@ -20,8 +20,8 @@ static void
 mathprog_1(struct svc_req *rqstp, register SVCXPRT *transp)
 {
 	union {
-		intpair num_chunks_1_arg;
-		int get_chunk_1_arg;
+		intpair add_1_arg;
+		intpair sub_1_arg;
 	} argument;
 	char *result;
 	xdrproc_t _xdr_argument, _xdr_result;
@@ -32,16 +32,22 @@ mathprog_1(struct svc_req *rqstp, register SVCXPRT *transp)
 		(void) svc_sendreply (transp, (xdrproc_t) xdr_void, (char *)NULL);
 		return;
 
-	case num_chunks:
+	case ADD:
 		_xdr_argument = (xdrproc_t) xdr_intpair;
 		_xdr_result = (xdrproc_t) xdr_int;
-		local = (char *(*)(char *, struct svc_req *)) num_chunks_1_svc;
+		local = (char *(*)(char *, struct svc_req *)) add_1_svc;
 		break;
 
-	case get_chunk:
-		_xdr_argument = (xdrproc_t) xdr_int;
+	case SUB:
+		_xdr_argument = (xdrproc_t) xdr_intpair;
+		_xdr_result = (xdrproc_t) xdr_int;
+		local = (char *(*)(char *, struct svc_req *)) sub_1_svc;
+		break;
+
+	case SENDSTRING:
+		_xdr_argument = (xdrproc_t) xdr_void;
 		_xdr_result = (xdrproc_t) xdr_String;
-		local = (char *(*)(char *, struct svc_req *)) get_chunk_1_svc;
+		local = (char *(*)(char *, struct svc_req *)) sendstring_1_svc;
 		break;
 
 	default:

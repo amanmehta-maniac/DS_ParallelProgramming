@@ -1,21 +1,52 @@
-cgproxy (8)          - a proxy for cgmanager
-dh_doxygen (1)       - helps with packaging doxygen-generated documentation
-doxygen (1)          - documentation system for various programming languages
-hydra_pmi_proxy (1)  - Internal exectuable used by Hydra
-mpris-proxy (1)      - Bluetooth mpris-proxy
-ne_session_proxy (3) - configure proxy servers
-ne_session_socks_proxy (3) - configure proxy servers
-ne_session_system_proxy (3) - configure proxy servers
-ne_set_addrlist (3)  - configure proxy servers
-ne_set_proxy_auth (3) - register authentication callbacks
-Net::DBus::ProxyObject (3pm) - Implement objects to export to the bus
-proxy (1)            - Display the proxy server that should be used to reach a given a network resource
-smproxy (1)          - Session Manager Proxy
-systemd-bus-proxyd (8) - Connect STDIO or a socket to a given bus address
-systemd-bus-proxyd.service (8) - Proxy classic D-Bus clients to kdbus
-systemd-bus-proxyd.socket (8) - Proxy classic D-Bus clients to kdbus
-systemd-socket-proxyd (8) - Bidirectionally proxy local sockets to another (possibly remote) socket.
-TIFFcolor (3tiff)    - color conversion routines.
-virtfs-proxy-helper (1) - QEMU 9p virtfs proxy filesystem helper
-XcmsCIExyY (3)       - Xcms color structure
-XcmsCIEXYZ (3)       - Xcms color structure
+apt-cdrom (8)        - APT CD-ROM management utility
+BN_gcd (3ssl)        - arithmetic operations on BIGNUMs
+brasero (1)          - Simple and easy to use CD/DVD burning application for the Gnome Desktop
+cd-create-profile (1) - Color Manager Profile Creation Tool
+cd-fix-profile (1)   - Color Manager Testing Tool
+cd-it8 (1)           - Color Manager Testing Tool
+d2i_ECDSA_SIG (3ssl) - Elliptic Curve Digital Signature Algorithm
+ecdsa (3ssl)         - Elliptic Curve Digital Signature Algorithm
+ECDSA_do_sign (3ssl) - Elliptic Curve Digital Signature Algorithm
+ECDSA_do_sign_ex (3ssl) - Elliptic Curve Digital Signature Algorithm
+ECDSA_do_verify (3ssl) - Elliptic Curve Digital Signature Algorithm
+ECDSA_SIG_free (3ssl) - Elliptic Curve Digital Signature Algorithm
+ECDSA_SIG_new (3ssl) - Elliptic Curve Digital Signature Algorithm
+ECDSA_sign (3ssl)    - Elliptic Curve Digital Signature Algorithm
+ECDSA_sign_ex (3ssl) - Elliptic Curve Digital Signature Algorithm
+ECDSA_sign_setup (3ssl) - Elliptic Curve Digital Signature Algorithm
+ECDSA_size (3ssl)    - Elliptic Curve Digital Signature Algorithm
+ECDSA_verify (3ssl)  - Elliptic Curve Digital Signature Algorithm
+FcAtomicDeleteNew (3) - delete new file
+FcAtomicDestroy (3)  - destroy an FcAtomic object
+FcDefaultSubstitute (3) - Perform default substitutions in a pattern
+FcDirCacheClean (3)  - This tries to clean up the cache directory of cache_dir.This returns FcTrue if the operation is successfu...
+FcDirCacheLoad (3)   - load a directory cache
+FcDirCacheLoadFile (3) - load a cache file
+FcDirCacheRead (3)   - read or construct a directory cache
+FcDirCacheRescan (3) - Re-scan a directory cache
+FcDirCacheUnlink (3) - Remove all caches related to dir
+FcDirCacheUnload (3) - unload a cache file
+FcDirCacheValid (3)  - check directory cache
+FcDirSave (3)        - DEPRECATED: formerly used to save a directory cache
+FcDirScan (3)        - scan a font directory without caching it
+hex2hcd (1)          - firmware converter
+hipercdecode (1)     - Decode a HIPERC stream into human readable form.
+i2d_ECDSA_SIG (3ssl) - Elliptic Curve Digital Signature Algorithm
+libOpenCL (7)        - OCL-ICD implementation of OpenCL ICD loader
+libOpenCL.so (7)     - OCL-ICD implementation of OpenCL ICD loader
+mcd (1)              - change MSDOS directory
+nctoh5 (1)           - Convert a NetCDF file into a PyTables (HDF5 format) file
+rsyncd.conf (5)      - configuration file for rsync in daemon mode
+SSL_CTX_set_ecdh_auto (3ssl) - EC supported curve functions
+SSL_set_ecdh_auto (3ssl) - EC supported curve functions
+systemd-timesyncd (8) - Network Time Synchronization
+systemd-timesyncd.service (8) - Network Time Synchronization
+tcdrain (3)          - get and set terminal attributes, line control, get and set baud rate
+timesyncd.conf (5)   - Network Time Synchronization configuration files
+timesyncd.conf.d (5) - Network Time Synchronization configuration files
+XkbAllocDeviceInfo (3) - Obtain an XkbDeviceInfoRec structure
+XkbAllocDeviceLedInfo (3) - Obtain an XkbDeviceLedInfoRec structure
+XML::LibXML::CDATASection (3pm) - XML::LibXML Class for CDATA Sections
+XwcDrawImageString (3) - draw image text using a single font set
+XwcDrawString (3)    - draw text using a single font set
+XwcDrawText (3)      - draw text using multiple font sets

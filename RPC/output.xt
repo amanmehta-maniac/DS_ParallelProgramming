@@ -1,0 +1,794 @@
+gencfu (1)           - Generates Unicode Confusable data files
+makeconv (1)         - compile a converter table
+npm-completion (1)   - Tab Completion for npm
+npm-config (7)       - More than you probably want to know about npm configuration
+anacrontab (5)       - configuration file for anacron
+slabinfo (5)         - kernel slab allocator statistics
+ABORT (7)            - abort the current transaction
+baobab (1)           - A graphical tool to analyze disk usage
+DELETE (7)           - delete rows of a table
+Dpkg (3)             - module with core variables
+LOCK (7)             - lock a table
+PAM (7)              - Pluggable Authentication Modules for Linux
+SELECT (7)           - retrieve rows from a table or view
+TRUNCATE (7)         - empty a table or set of tables
+URI (3pm)            - Uniform Resource Identifiers (absolute and relative)
+__after_morecore_hook (3) - malloc debugging variables
+__freadable (3)      - interfaces to stdio FILE structure
+__free_hook (3)      - malloc debugging variables
+__fwritable (3)      - interfaces to stdio FILE structure
+__malloc_hook (3)    - malloc debugging variables
+__malloc_initialize_hook (3) - malloc debugging variables
+__memalign_hook (3)  - malloc debugging variables
+__realloc_hook (3)   - malloc debugging variables
+aa-enabled (8)       - test whether AppArmor is enabled
+aa-status (8)        - display various information about the current AppArmor policy.
+abort (3)            - cause abnormal process termination
+abs (3)              - compute the absolute value of an integer
+access.conf (5)      - the login access control table file
+accessdb (8)         - dumps the content of a man-db database in a human readable format
+acpi_available (1)   - test whether ACPI subsystem is available
+addpart (8)          - tell the kernel about the existence of a partition
+alsabat (1)          - command-line sound tester for ALSA sound card driver
+ALTER_DATABASE (7)   - change a database
+ALTER_FOREIGN_TABLE (7) - change the definition of a foreign table
+ALTER_ROLE (7)       - change a database role
+ALTER_TABLE (7)      - change the definition of a table
+ALTER_TABLESPACE (7) - change the definition of a tablespace
+ALTER_USER (7)       - change a database role
+ANALYZE (7)          - collect statistics about a database
+apm_available (1)    - test whether APM subsystem is available
+apparmor_status (8)  - display various information about the current AppArmor policy.
+appres (1)           - list X application resource database
+AptPkg::System (3pm) - APT system abstraction class
+Archive::Zip::FAQ (3pm) - Answers to a few frequently asked questions about Archive::Zip
+as (1)               - the portable GNU assembler.
+assert (3)           - abort the program if assertion is false
+assert_perror (3)    - test errnum and abort
+atan2 (3)            - arc tangent function of two variables
+atan2f (3)           - arc tangent function of two variables
+atan2l (3)           - arc tangent function of two variables
+bareword::filehandles (3pm) - disables bareword filehandles
+basex (1)            - XML database system and XPath/XQuery processor (command line mode)
+basexclient (1)      - XML database system and XPath/XQuery processor (client mode)
+basexgui (1)         - XML database system and XPath/XQuery processor (graphical mode)
+basexserver (1)      - XML database system and XPath/XQuery processor (server mode)
+bdftopcf (1)         - convert X font from Bitmap Distribution Format to Portable Compiled Format
+binfmt.d (5)         - Configure additional binary formats for executables at boot
+bio (3ssl)           - I/O abstraction
+bluetooth (1)        - enable/disable internal bluetooth device
+BN_CTX_end (3ssl)    - use temporary BIGNUM variables
+BN_CTX_get (3ssl)    - use temporary BIGNUM variables
+BN_CTX_start (3ssl)  - use temporary BIGNUM variables
+brltty (1)           - refreshable braille display driver for Linux/Unix
+btree (3)            - btree database access method
+bzexe (1)            - compress executable files in place
+c2ph (1)             - Dump C structures as generated from "cc - g - S" stabs
+cabextract (1)       - program to extract files from Microsoft cabinet (.cab) archives
+cabs (3)             - absolute value of a complex number
+cabsf (3)            - absolute value of a complex number
+cabsl (3)            - absolute value of a complex number
+canonicalize_file_name (3) - return the canonicalized absolute pathname
+capabilities (7)     - overview of Linux capabilities
+capability.conf (5)  - configuration file for the pam_cap module
+capget (2)           - set/get capabilities of thread(s)
+capinfos (1)         - Prints information about capture files
+capset (2)           - set/get capabilities of thread(s)
+capsh (1)            - capability shell wrapper
+catfish (1)          - File searching tool which is configurable via the command line
+cfdisk (8)           - display or manipulate a disk partition table
+cgdisk (8)           - Curses-based GUID partition table (GPT) manipulator
+check-bios-nx (1)    - determine if BIOS has blocked CPU's NX capabilities
+checkinstall (8)     - Track installation of local software, and produce a binary manageable with your package management software.
+ckbcomp (1)          - compile a XKB keyboard description to a keymap suitable for loadkeys or kbdcontrol
+Class::Accessor::Fast (3pm) - Faster, but less expandable, accessors
+Class::Accessor::Faster (3pm) - Even faster, but less expandable, accessors
+Class::Inspector (3pm) - Get information about a class and its structure
+Class::Inspector::Functions (3pm) - Get information about a class and its structure
+Class::XSAccessor::Heavy (3pm) - Guts you don't care about
+clock_nanosleep (2)  - high-resolution sleep with specifiable clock
+CLUSTER (7)          - cluster a table according to an index
+clusterdb (1)        - cluster a PostgreSQL database
+cmake-variables (7)  - CMake Variables Reference
+compile_et (1)       - error table compiler
+confstr (3)          - get configuration dependent string variables
+COPY (7)             - copy data between a file and a table
+CPAN::Changes::Release (3pm) - Information about a particular release
+cppunit-config (1)   - script to get information about the installed version of cppunit
+CREATE_DATABASE (7)  - create a new database
+CREATE_FOREIGN_TABLE (7) - define a new foreign table
+CREATE_GROUP (7)     - define a new database role
+create_module (2)    - create a loadable module entry
+CREATE_POLICY (7)    - define a new row level security policy for a table
+CREATE_ROLE (7)      - define a new database role
+CREATE_TABLE (7)     - define a new table
+CREATE_TABLE_AS (7)  - define a new table from the results of a query
+CREATE_TABLESPACE (7) - define a new tablespace
+CREATE_USER (7)      - define a new database role
+createdb (1)         - create a new PostgreSQL database
+crontab (1)          - maintain crontab files for individual users (Vixie Cron)
+crontab (5)          - tables for driving cron
+cupsdisable (8)      - stop/start printers and classes
+cupsenable (8)       - stop/start printers and classes
+curl-config (1)      - Get information about a libcurl installation
+db (3)               - database access methods
+dbm (3)              - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+dbm_clearerr (3)     - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+dbm_close (3)        - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+dbm_delete (3)       - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+dbm_dirfno (3)       - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+dbm_error (3)        - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+dbm_fetch (3)        - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+dbm_firstkey (3)     - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+dbm_nextkey (3)      - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+dbm_open (3)         - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+dbm_pagfno (3)       - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+dbm_rdonly (3)       - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+dbm_store (3)        - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+dbmclose (3)         - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+dbminit (3)          - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+dbopen (3)           - database access methods
+dconf (1)            - Simple tool for manipulating a dconf database
+dconf-service (1)    - D-Bus service for writes to the dconf database
+deb-substvars (5)    - Debian source substitution variables
+debconf-copydb (1)   - copy a debconf database
+debconf-escape (1)   - helper when working with debconf's escape capability
+debconf-set-selections (1) - insert new values into the debconf database
+debconf-show (1)     - query the debconf database
+debconf-updatepo (1) - update PO files about debconf templates
+DebianNet (3pm)      - create, remove, enable or disable entry in /etc/inetd.conf
+dehtmldiff (1)       - get usable diff from an HTML page
+delete (3)           - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+delpart (8)          - tell the kernel to forget about a partition
+Devel::LexAlias (3pm) - alias lexical variables
+dh_strip (1)         - strip executables, shared libraries, and some static libraries
+dh_systemd_enable (1) - enable/disable systemd unit files
+dhclient.leases (5)  - DHCP client lease database
+dlinfo (3)           - obtain information about a dynamically loaded object
+dlsym (3)            - obtain address of a symbol in a shared object or executable
+dmidecode (8)        - DMI table decoder
+dosfslabel (8)       - set or get MS-DOS filesystem label
+dpkg-query (1)       - a tool to query the dpkg database
+dpkg-vendor (1)      - queries information about distribution vendors
+Dpkg::Compression (3) - simple database of available compression methods
+Dpkg::Interface::Storable (3) - common methods related to object serialization
+Dpkg::Substvars (3)  - handle variable substitution in strings
+DPMSCapable (3)      - returns the DPMS capability of the X server
+DPMSDisable (3)      - disables DPMS on the specified display
+DPMSEnable (3)       - enables DPMS on the specified display
+DPMSForceLevel (3)   - forces a DPMS capable display into the specified power level
+DPMSInfo (3)         - returns information about the current DPMS state
+DPMSQueryExtension (3) - queries the X server to determine the availability of the DPMS Extension
+drmAvailable (3)     - determine whether a DRM kernel driver has been loaded
+DROP_DATABASE (7)    - remove a database
+DROP_FOREIGN_TABLE (7) - remove a foreign table
+DROP_GROUP (7)       - remove a database role
+DROP_OWNED (7)       - remove database objects owned by a database role
+DROP_POLICY (7)      - remove a row level security policy from a table
+DROP_ROLE (7)        - remove a database role
+DROP_TABLE (7)       - remove a table
+DROP_TABLESPACE (7)  - remove a tablespace
+DROP_USER (7)        - remove a database role
+dropdb (1)           - remove a PostgreSQL database
+DTLS_client_method (3ssl) - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+DTLS_method (3ssl)   - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+DTLS_server_method (3ssl) - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+DTLSv1_2_client_method (3ssl) - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+DTLSv1_2_method (3ssl) - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+DTLSv1_2_server_method (3ssl) - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+DTLSv1_client_method (3ssl) - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+DTLSv1_method (3ssl) - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+DTLSv1_server_method (3ssl) - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+dumpkeys (1)         - dump keyboard translation tables
+dvd+rw-mediainfo (1) - display information about dvd drive and disk
+e2label (8)          - Change the label on an ext2/ext3/ext4 filesystem
+ebtables (8)         - Ethernet bridge frame table administration
+eject (1)            - eject removable media
+elf (5)              - format of Executable and Linking Format (ELF) files
+enchant-lsmod (1)    - Show information about available spell-checking modules and dictionaries.
+endfsent (3)         - handle fstab entries
+envsubst (1)         - substitutes environment variables in shell format strings
+ERR_error_string (3ssl) - obtain human-readable error message
+ERR_error_string_n (3ssl) - obtain human-readable error message
+ERR_func_error_string (3ssl) - obtain human-readable error message
+ERR_lib_error_string (3ssl) - obtain human-readable error message
+ERR_reason_error_string (3ssl) - obtain human-readable error message
+ethers (5)           - Ethernet address to IP number database
+EVP_cleanup (3ssl)   - add algorithms to internal table
+expand (1)           - convert tabs to spaces
+fabs (3)             - absolute value of floating-point number
+fabsf (3)            - absolute value of floating-point number
+fabsl (3)            - absolute value of floating-point number
+fatlabel (8)         - set or get MS-DOS filesystem label
+fc-list (1)          - list available fonts
+fc-match (1)         - match available fonts
+FcConfigAppFontAddDir (3) - Add fonts from directory to font database
+FcConfigAppFontAddFile (3) - Add font file to font database
+FcConfigAppFontClear (3) - Remove all app fonts from font database
+FcConfigBuildFonts (3) - Build font database
+FcConfigEnableHome (3) - controls use of the home directory.
+FcObjectSetBuild (3) - Build object set from args
+FcPatternBuild (3)   - Create patterns from arguments
+fdisk (8)            - manipulate disk partition table
+fedisableexcept (3)  - floating-point rounding and exception handling
+feenableexcept (3)   - floating-point rounding and exception handling
+fetch (3)            - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+findfs (8)           - find a filesystem by label or UUID
+firstkey (3)         - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+fixparts (8)         - MBR partition table repair utility
+readproctab (3)      - read information for all current processes at once
+freetype-config (1)  - Get information about a libfreetype installation
+fstab (5)            - static information about the filesystems
+fstab-decode (8)     - run a command with fstab-encoded arguments
+gamma4scanimage (1)  - create a gamma table for scanimage
+gconf-schemas (8)    - register gconf schemas with the gconf database
+gdbm (3)             - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+gdbm_close (3)       - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+gdbm_delete (3)      - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+gdbm_errno (3)       - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+gdbm_error (3)       - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+gdbm_exists (3)      - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+gdbm_fetch (3)       - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+gdbm_firstkey (3)    - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+gdbm_nextkey (3)     - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+gdbm_open (3)        - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+gdbm_reorganize (3)  - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+gdbm_setopt (3)      - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+gdbm_store (3)       - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+gdbm_strerror (3)    - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+gdbm_sync (3)        - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+gdisk (8)            - Interactive GUID partition table (GPT) manipulator
+gencmn (8)           - generate an ICU memory-mappable data file
+get_avphys_pages (3) - get total and available physical page counts
+get_phys_pages (3)   - get total and available physical page counts
+getcap (8)           - examine file capabilities
+getconf (1)          - Query system configuration variables
+getdtablesize (2)    - get descriptor table size
+getdtablesize (3)    - get descriptor table size
+getenv (3)           - get an environment variable
+getfsent (3)         - handle fstab entries
+getfsfile (3)        - handle fstab entries
+getfsspec (3)        - handle fstab entries
+getkeycodes (8)      - print kernel scancode-to-keycode mapping table
+getpcaps (1)         - List Process Capabilities
+gipddecode (1)       - Decode a GIPD stream into human readable form.
+git-describe (1)     - Describe a commit using the most recent tag reachable from it
+git-fsck (1)         - Verifies the connectivity and validity of the objects in the database
+git-fsck-objects (1) - Verifies the connectivity and validity of the objects in the database
+git-help (1)         - Display help information about Git
+git-ls-files (1)     - Show information about files in the index and the working tree
+git-prune (1)        - Prune all unreachable objects from the object database
+git-var (1)          - Show a Git logical variable
+glxinfo (1)          - show information about the GLX implementation
+google-chrome-stable (1) - the web browser from Google
+grep-available (1)   - grep Debian control files
+grub-mkimage (1)     - make a bootable image of GRUB
+grub-render-label (1) - generate a .disk_label for Apple Macs.
+gst-inspect-1.0 (1)  - print info about a GStreamer plugin or element
+gtbl (1)             - format tables for troff
+gvfs-info (1)        - Show information about files
+gzexe (1)            - compress executable files in place
+halt (5)             - variables that affect the behavior of the shutdown scripts
+hash (3)             - hash database access method
+hbpldecode (1)       - Decode a HBPL stream into human readable form.
+hcreate (3)          - hash table management
+hcreate_r (3)        - hash table management
+hdestroy (3)         - hash table management
+hdestroy_r (3)       - hash table management
+hfst-prune-alphabet (1) - =Prune the alphabet of a transducer
+hfst-substitute (1)  - =Relabel transducer arcs
+hipercdecode (1)     - Decode a HIPERC stream into human readable form.
+hosts (5)            - static table lookup for hostnames
+hsearch (3)          - hash table management
+hsearch_r (3)        - hash table management
+HTML::Tagset (3pm)   - data tables useful in parsing HTML
+HTML::Template::FAQ (3pm) - Frequently Asked Questions about HTML::Template
+HTML::Tree::AboutObjects (3pm) - - article: "User's View of Object-Oriented Modules"
+HTML::Tree::AboutTrees (3pm) - - article on tree-shaped data structures in Perl
+hwclock (5)          - variables that affect the behaviour of the hwclock boot script
+hwdb (7)             - Hardware Database
+hwloc (7)            - General information about hwloc ("hardware locality").
+hwloc-dump-hwdata (1) - Dump topology and locality information from hardware tables
+hwloc-info (1)       - Show some information about some objects or about a topology
+hydra_nameserver (1) - Internal executable used by Hydra
+hydra_persist (1)    - Internal executable used by Hydra
+hydra_pmi_proxy (1)  - Internal exectuable used by Hydra
+ibus-table-createdb (1) - create ibus-table database from table source
+icuinfo (1)          - Shows some basic info about the current ICU
+imaxabs (3)          - compute the absolute value of an integer
+IMPORT_FOREIGN_SCHEMA (7) - import table definitions from a foreign server
+indirect (3pm)       - Lexically warn about using the indirect method call syntax.
+info (5)             - readable online documentation
+initdb (1)           - create a new PostgreSQL database cluster
+INSERT (7)           - create new rows in a table
+intel_bios_reader (1) - Parses an Intel BIOS and displays many of its tables
+intel_lid (1)        - Polls the values of different reports about laptop lid state.
+IO::WrapTie (3pm)    - wrap tieable objects in IO::Handle interface
+ip-addrlabel (8)     - protocol address label management
+ip-neighbour (8)     - neighbour/arp tables management.
+ip-ntable (8)        - neighbour table configuration
+ip-route (8)         - routing table management
+ip-rule (8)          - routing policy database management
+ip6tables (8)        - administration tool for IPv4/IPv6 packet filtering and NAT
+ip6tables-apply (8)  - a safer way to update iptables remotely
+ip6tables-restore (8) - Restore IPv6 Tables
+ip6tables-save (8)   - dump iptables rules to stdout
+iptables (8)         - administration tool for IPv4/IPv6 packet filtering and NAT
+iptables-apply (8)   - a safer way to update iptables remotely
+iptables-extensions (8) - list of extensions in the standard iptables distribution
+iptables-restore (8) - Restore IP Tables
+iptables-save (8)    - dump iptables rules to stdout
+iptables-xml (1)     - Convert iptables-save format to XML
+iswalpha (3)         - test for alphabetic wide character
+jstatd (1)           - Monitors Java Virtual Machines (JVMs) and enables remote monitoring tools to attach to JVMs. This command...
+kbdinfo (1)          - obtain information about the status of a console
+kded4 (8)            - KDE daemon - triggers Sycoca database updates when needed.
+keymaps (5)          - keyboard table descriptions for loadkeys and dumpkeys
+kvm (1)              - kvm-enabling wrapper for qemu-system-x86_64
+kvm-ok (1)           - determine if this system is capable of running hardware accelerated KVM virtual machines (ie, possesses V...
+labs (3)             - compute the absolute value of an integer
+lavadecode (1)       - Decode a LAVAFLOW stream into human readable form.
+ldap.conf (5)        - LDAP configuration file/environment variables
+ldap_abandon (3)     - Abandon an LDAP operation in progress
+ldap_abandon_ext (3) - Abandon an LDAP operation in progress
+lh_delete (3ssl)     - dynamic hash table
+lh_doall (3ssl)      - dynamic hash table
+lh_doall_arg (3ssl)  - dynamic hash table
+lh_error (3ssl)      - dynamic hash table
+lh_free (3ssl)       - dynamic hash table
+lh_insert (3ssl)     - dynamic hash table
+lh_new (3ssl)        - dynamic hash table
+lh_retrieve (3ssl)   - dynamic hash table
+lhash (3ssl)         - dynamic hash table
+libpng (3)           - Portable Network Graphics (PNG) Reference Library 1.2.54
+libpng-config (1)    - get information about installed libpng library
+libpng12-config (1)  - get information about installed libpng library
+lintian-info (1)     - give detailed information about Lintian's error tags
+lintian-lab-tool (1) - perform common operations on/involving laboratories
+llabs (3)            - compute the absolute value of an integer
+llvm-nm (1)          - list LLVM bitcode and object file's symbol table
+llvm-nm-3.8 (1)      - list LLVM bitcode and object file's symbol table
+llvm-nm-3.9 (1)      - list LLVM bitcode and object file's symbol table
+loadkeys (1)         - load keyboard translation tables
+loadunimap (8)       - load the kernel unicode-to-font mapping table
+lpinfo (8)           - show available devices or drivers
+lscpu (1)            - display information about the CPU architecture
+lslogins (1)         - display information about known users in the system
+LWP::Authen::Ntlm (3pm) - Library for enabling NTLM authentication (Microsoft) in LWP
+madvise (2)          - give advice about use of memory
+mailcap (5)          - metamail capabilities file
+malloc_hook (3)      - malloc debugging variables
+malloc_usable_size (3) - obtain size of block of memory allocated from heap
+mapscrn (8)          - load screen output mapping table
+MIME::Decoder::QuotedPrint (3pm) - encode/decode a "quoted-printable" stream
+mk_modmap (8)        - translate a Linux keytable file into an xmodmap file
+mkfontscale (1)      - create an index of scalable font files for X
+mlabel (1)           - make an MSDOS volume label
+mlocate.db (5)       - a mlocate database
+modinfo (8)          - Show information about a Linux Kernel module
+Module::Pluggable (3pm) - automatically give your module the ability to have plugins
+Module::Pluggable::Object (3pm) - automatically give your module the ability to have plugins
+MPI_Abort (3)        - Terminates MPI execution environment
+MPI_File_get_byte_offset (3) - Returns the absolute byte position in the file corresponding to "offset" etypes relative to the c...
+MPI_Open_port (3)    - Establish an address that can be used to establish connections between groups of MPI processes
+MPI_T_category_get_cvars (3) - Get control variables in a category
+MPI_T_category_get_info (3) - Get the information about a category
+MPI_T_category_get_pvars (3) - Get performance variables in a category
+MPI_T_cvar_get_index (3) - Get the index of a control variable
+MPI_T_cvar_get_info (3) - Get the information about a control variable
+MPI_T_cvar_get_num (3) - Get the number of control variables
+MPI_T_cvar_handle_alloc (3) - Allocate a handle for a control variable
+MPI_T_cvar_handle_free (3) - Free an existing handle for a control variable
+MPI_T_cvar_read (3)  - Read the value of a control variable
+MPI_T_cvar_write (3) - Write a control variable
+MPI_T_enum_get_info (3) - Get the information about an enumeration
+MPI_T_enum_get_item (3) - Get the information about an item in an enumeration
+MPI_T_pvar_get_index (3) - Get the index of a performance variable
+MPI_T_pvar_get_info (3) - Get the inforamtion about a performance variable
+MPI_T_pvar_get_num (3) - Get the number of performance variables
+MPI_T_pvar_handle_alloc (3) - Allocate a handle for a performance variable
+MPI_T_pvar_handle_free (3) - Free an existing handle for a performance variable
+MPI_T_pvar_read (3)  - Read the value of a performance variable
+MPI_T_pvar_readreset (3) - Read the value of a performance variable and then reset it
+MPI_T_pvar_reset (3) - Reset a performance variable
+MPI_T_pvar_session_create (3) - Create a new session for accessing performance variables
+MPI_T_pvar_session_free (3) - Free an existing performance variable session
+MPI_T_pvar_start (3) - Start a performance variable
+MPI_T_pvar_stop (3)  - Stop a performance variable
+MPI_T_pvar_write (3) - Write a performance variable
+mpivars (1)          - Print MPI variables
+mq_notify (2)        - register for notification when a message is available
+mq_notify (3)        - register for notification when a message is available
+multidimensional (3pm) - disables multidmensional array emulation
+myisamchk (1)        - MyISAM table-maintenance utility
+myisampack (1)       - generate compressed, read-only MyISAM tables
+mysql_tzinfo_to_sql (1) - load the time zone tables
+mysql_upgrade (1)    - check and upgrade MySQL tables
+mysqlanalyze (1)     - a table maintenance program
+mysqlcheck (1)       - a table maintenance program
+mysqldump (1)        - a database backup program
+mysqloptimize (1)    - a table maintenance program
+mysqlpump (1)        - a database backup program
+mysqlrepair (1)      - a table maintenance program
+mysqlshow (1)        - display database, table, and column information
+nad2bin (1)          - convert nad ASCII files into binary format usable by nad2nad
+native2ascii (1)     - Creates localizable applications by converting a file with characters in any supported character encoding...
+nctoh5 (1)           - Convert a NetCDF file into a PyTables (HDF5 format) file
+ne_ssl_readable_dname (3) - SSL distinguished name handling
+neon-config (1)      - script providing information about installed copy of neon library
+Net::DBus::Dumper (3pm) - Stringify Net::DBus objects suitable for printing
+netstat (8)          - Print network connections, routing tables, interface statistics, masquerade connections, and multicast me...
+nextkey (3)          - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+nfnl_osf (8)         - load and unload os fingerprint database
+nproc (1)            - print the number of processing units available
+ntfs-3g.probe (8)    - Probe an NTFS volume mountability
+ntfslabel (8)        - display/change the label on an ntfs file system
+ntp-wait (1)         - Wait for ntpd to stabilize the system clock
+ntptime (8)          - read kernel time variables
+numfmt (1)           - Convert numbers from/to human-readable strings
+oakdecode (1)        - Decode an OAKT printer stream into human readable form.
+oldolduname (2)      - get name and information about current kernel
+olduname (2)         - get name and information about current kernel
+OpenSSL_add_all_algorithms (3ssl) - add algorithms to internal table
+OpenSSL_add_all_ciphers (3ssl) - add algorithms to internal table
+OpenSSL_add_all_digests (3ssl) - add algorithms to internal table
+OPENSSL_ia32cap (3ssl) - the IA-32 processor capabilities vector
+OPENSSL_ia32cap_loc (3ssl) - the IA-32 processor capabilities vector
+OPENSSL_VERSION_NUMBER (3ssl) - retrieve version/build information about OpenSSL library
+opldecode (1)        - Decode a Raster Object (opl) stream into human readable form.
+orca (1)             - a scriptable screen reader
+PadWalker (3pm)      - play with other peoples' lexical variables
+pam (7)              - Pluggable Authentication Modules for Linux
+pam_cap (8)          - PAM module to set inheritable capabilities
+pam_env (8)          - PAM module to set/unset environment variables
+pam_env.conf (5)     - the environment variables config file
+pam_getenv (8)       - get environment variables from /etc/environment
+pam_mail (8)         - Inform about available mail
+pam_tty_audit (8)    - Enable or disable TTY auditing for specified users
+pam_userdb (8)       - PAM module to authenticate against a db database
+Pango::FontMap (3pm) - an object that represents the set of fonts available for a particular rendering system
+Pango::TabArray (3pm) - an object containing an array of tab stops
+partprobe (8)        - inform the OS of partition table changes
+partx (8)            - tell the kernel about the presence and numbering of on-disk partitions
+pathchk (1)          - check whether file names are valid or portable
+pcimodules (8)       - List kernel driver modules available for all currently plugged in PCI devices
+pcre16_get_stringtable_entries (3) - Perl-compatible regular expressions
+pcre16_maketables (3) - Perl-compatible regular expressions
+pcre32_get_stringtable_entries (3) - Perl-compatible regular expressions
+pcre32_maketables (3) - Perl-compatible regular expressions
+pcre_get_stringtable_entries (3) - Perl-compatible regular expressions
+pcre_maketables (3)  - Perl-compatible regular expressions
+pdfdetach (1)        - Portable Document Format (PDF) document embedded file extractor (version 3.03)
+pdffonts (1)         - Portable Document Format (PDF) font analyzer (version 3.03)
+pdfimages (1)        - Portable Document Format (PDF) image extractor (version 3.03)
+pdfinfo (1)          - Portable Document Format (PDF) document information extractor (version 3.03)
+pdfseparate (1)      - Portable Document Format (PDF) page extractor
+pdftocairo (1)       - Portable Document Format (PDF) to PNG/JPEG/TIFF/PDF/PS/EPS/SVG using cairo
+pdftoppm (1)         - Portable Document Format (PDF) to Portable Pixmap (PPM) converter (version 3.03)
+pdftops (1)          - Portable Document Format (PDF) to PostScript converter (version 3.03)
+pdftotext (1)        - Portable Document Format (PDF) to text converter (version 3.03)
+pdfunite (1)         - Portable Document Format (PDF) page merger
+perf-help (1)        - display help information about perf
+pg_config (1)        - retrieve information about the installed version of PostgreSQL
+pg_controldata (1)   - display control information of a PostgreSQL database cluster
+pg_dump (1)          - extract a PostgreSQL database into a script file or other archive file
+pg_dumpall (1)       - extract a PostgreSQL database cluster into a script file
+pg_lsclusters (1)    - show information about all PostgreSQL clusters
+pg_resetxlog (1)     - reset the write-ahead log and other control information of a PostgreSQL database cluster
+pg_restore (1)       - restore a PostgreSQL database from an archive file created by pg_dump
+pg_xlogdump (1)      - Display a human-readable rendering of the write-ahead log of a PostgreSQL database cluster
+pkaction (1)         - Get details about a registered action
+pkg-config (1)       - Return metainformation about installed libraries
+png (5)              - Portable Network Graphics (PNG) format
+pnm2ppa (1)          - convert portable anymap (PNM) images to HP's PPA printer format.
+Pod::Perldoc::ToMarkdown (3pm) - Enable `perldoc - o Markdown`
+posix_madvise (3)    - give advice about patterns of memory usage
+postgres (1)         - PostgreSQL database server
+postmaster (1)       - PostgreSQL database server
+ppa-purge (1)        - disables a PPA and reverts to official packages
+pppdump (8)          - convert PPP record file to readable format
+psfaddtable (1)      - add a Unicode character table to a console font
+psfgettable (1)      - extract the embedded Unicode character table from a console font
+psfstriptable (1)    - remove the embedded Unicode character table from a console font
+psfxtable (1)        - handle Unicode character tables for console fonts
+pstruct (1)          - Dump C structures as generated from "cc - g - S" stabs
+pt2to3 (1)           - PyTables 2.x - > 3.x API transition tool.
+ptdump (1)           - Lets you dig into the contents of a PyTables file.
+pthread_cleanup_pop_restore_np (3) - push and pop thread cancellation clean-up handlers while saving cancelability type
+pthread_cleanup_push_defer_np (3) - push and pop thread cancellation clean-up handlers while saving cancelability type
+pthread_setcancelstate (3) - set cancelability state and type
+pthread_setcanceltype (3) - set cancelability state and type
+ptrepack (1)         - Copy any PyTables Leaf, Group or complete subtree into another file.
+pttree (1)           - prints a quick overview of the contents of PyTables HDF5 files.
+putenv (3)           - change or add an environment variable
+putgrent (3)         - write a group database entry to a file
+pybabel (1)          - command line tool for working with message catalogs
+qemu-ppc64abi32 (1)  - QEMU User Emulator
+qpdldecode (1)       - Decode a QPDL stream into human readable form.
+rarp (8)             - manipulate the system RARP table
+rasqal-config (1)    - script to get information about the installed version of the RDF query library
+rcS (5)              - variables that affect the behavior of boot scripts
+readelf (1)          - Displays information about ELF files.
+realpath (3)         - return the canonicalized absolute pathname
+REASSIGN_OWNED (7)   - change the ownership of database objects owned by a database role
+reboot (2)           - reboot or enable/disable Ctrl-Alt-Del
+recno (3)            - record number database access method
+redis-server (1)     - Persistent key-value database
+redland-config (1)   - script to get information about the installed version of Redland
+regulatory.bin (5)   - The Linux wireless regulatory database
+reindexdb (1)        - reindex a PostgreSQL database
+resizepart (8)       - tell the kernel about the new size of a partition
+rfkill (8)           - tool for enabling and disabling wireless devices
+rmadison (1)         - - Remotely query the Debian archive database about packages
+ROLLBACK (7)         - abort the current transaction
+route (8)            - show / manipulate the IP routing table
+rpmdb (8)            - RPM Database Tool
+rsyslogd (8)         - reliable and extended syslogd
+s390_runtime_instr (2) - enable/disable s390 CPU run-time instrumentation
+sane-abaton (5)      - SANE backend for Abaton flatbed scanners
+sane-config (1)      - get information about the installed version of libsane
+sbsiglist (1)        - Create EFI_SIGNATURE_LIST signature databases
+sbvarsign (1)        - UEFI authenticated variable signing tool
+secure_getenv (3)    - get an environment variable
+SECURITY_LABEL (7)   - define or change a security label applied to an object
+SELECT_INTO (7)      - define a new table from the results of a query
+setcap (8)           - set file capabilities
+setenv (3)           - change or add an environment variable
+setfsent (3)         - handle fstab entries
+setkeycodes (8)      - load kernel scancode-to-keycode mapping table entries
+setvesablank (8)     - Turn VESA screen blanking on or off
+sfdisk (8)           - display or manipulate a disk partition table
+sgdisk (8)           - Command-line GUID partition table (GPT) manipulator for Linux and Unix
+showrgb (1)          - display an rgb color-name database
+sk98lin (4)          - Marvell/SysKonnect Gigabit Ethernet driver v6.21
+slabtop (1)          - display kernel slab cache information in real time
+slxdecode (1)        - Decode a SLX stream into human readable form.
+SOAP::Constants (3pm) - SOAP::Lite provides several variables to allows programmers and users to modify the behavior of SOAP::Li...
+SOAP::Deserializer (3pm) - the means by which the toolkit manages the conversion of XML into an object manageable by a developer
+SOAP::Lite::Packager (3pm) - this class is an abstract class which allows for multiple types of packaging agents such as MIME an...
+SOAP::Packager (3pm) - this class is an abstract class which allows for multiple types of packaging agents such as MIME and DIME.
+SOAP::Transport (3pm) - an abstract class extended by more specialized transport modules
+ssh-copy-id (1)      - use locally available keys to authorise logins on a remote machine
+SSL_check_chain (3ssl) - check certificate chain suitability
+SSL_CTX_get_session_cache_mode (3ssl) - enable/disable session caching
+SSL_CTX_new (3ssl)   - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+SSL_CTX_set_cipher_list (3ssl) - choose list of available SSL_CIPHERs
+SSL_CTX_set_session_cache_mode (3ssl) - enable/disable session caching
+SSL_get_cipher_list (3ssl) - get list of available SSL_CIPHERs
+SSL_get_ciphers (3ssl) - get list of available SSL_CIPHERs
+SSL_pending (3ssl)   - obtain number of readable bytes buffered in an SSL object
+SSL_set_cipher_list (3ssl) - choose list of available SSL_CIPHERs
+SSLeay (3ssl)        - retrieve version/build information about OpenSSL library
+SSLeay_version (3ssl) - retrieve version/build information about OpenSSL library
+SSLv23_client_method (3ssl) - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+SSLv23_method (3ssl) - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+SSLv23_server_method (3ssl) - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+SSLv2_client_method (3ssl) - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+SSLv2_method (3ssl)  - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+SSLv2_server_method (3ssl) - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+SSLv3_client_method (3ssl) - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+SSLv3_method (3ssl)  - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+SSLv3_server_method (3ssl) - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+stdarg (3)           - variable argument lists
+store (3)            - The GNU database manager. Includes dbm and ndbm compatability. (Version .)
+strictures::extra (3pm) - enable or disable strictures additional checks
+strings (1)          - print the strings of printable characters in files.
+swab (3)             - swap adjacent bytes
+swaplabel (8)        - print or change the label or UUID of a swap area
+swapoff (8)          - enable/disable devices and files for paging and swapping
+swapon (8)           - enable/disable devices and files for paging and swapping
+sync-available (8)   - sync dpkg's available database with apt's database
+syndaemon (1)        - a program that monitors keyboard activity and disables the touchpad when the keyboard is being used.
+Sys::Hostname::Long (3pm) - Try every conceivable way to get full hostname
+systemd-binfmt (8)   - Configure additional binary formats for executables at boot
+systemd-binfmt.service (8) - Configure additional binary formats for executables at boot
+systemd-cryptsetup-generator (8) - Unit generator for /etc/crypttab
+systemd-debug-generator (8) - Generator for enabling a runtime debug shell and masking specific units at boot
+systemd-fstab-generator (8) - Unit generator for /etc/fstab
+systemd-getty-generator (8) - Generator for enabling getty instances on the console
+systemd-gpt-auto-generator (8) - Generator for automatically discovering and mounting root, /home and /srv partitions, as well a...
+systemd-hwdb (8)     - hardware database management tool
+systemd-notify (1)   - Notify service manager about start-up completion and other daemon status changes
+systemd.preset (5)   - Service enablement presets
+TABLE (7)            - retrieve rows from a table or view
+tabs (1)             - set tabs on a terminal
+tbl (1)              - format tables for troff
+tbl-dctrl (1)        - generate tabular representations of data in dctrl format
+tc-bpf (8)           - BPF programmable classifier and actions for ingress/egress queueing disciplines
+tc-stab (8)          - Generic size table manipulations
+telepathy-gabble (8) - Telepathy connection manager for XMPP (Jabber)
+termcap (5)          - terminal capability database
+terminfo (5)         - terminal capability data base
+TIFFcolor (3tiff)    - color conversion routines.
+TIFFswab (3tiff)     - byte- and bit-swapping routines
+tipc-nametable (8)   - show TIPC nametable
+tld_default_table (3) - API function
+tld_get_table (3)    - API function
+TLSv1_1_client_method (3ssl) - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+TLSv1_1_method (3ssl) - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+TLSv1_1_server_method (3ssl) - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+TLSv1_2_client_method (3ssl) - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+TLSv1_2_method (3ssl) - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+TLSv1_2_server_method (3ssl) - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+TLSv1_client_method (3ssl) - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+TLSv1_method (3ssl)  - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+TLSv1_server_method (3ssl) - create a new SSL_CTX object as framework for TLS/SSL enabled functions
+toe (1)              - table of (terminfo) entries
+tput (1)             - initialize a terminal or query terminfo database
+tune2fs (8)          - adjust tunable filesystem parameters on ext2/ext3/ext4 filesystems
+ucfq (1)             - query the ucf database
+uname (2)            - get name and information about current kernel
+unexpand (1)         - convert spaces to tabs
+unsetenv (3)         - change or add an environment variable
+UPDATE (7)           - update rows of a table
+update-binfmts (8)   - maintain registry of executable binary formats
+update-default-aspell (8) - rebuild aspell database and emacsen stuff
+update-desktop-database (1) - Build cache database of MIME types handled by desktop files
+update-dictcommon-aspell (8) - rebuild aspell database and emacsen stuff
+update-dictcommon-hunspell (8) - rebuild hunspell database and emacsen stuff
+update-dlocatedb (8) - generate text database of installed files for dlocate
+update-inetd (8)     - create, remove, enable or disable entry in /etc/inetd.conf
+update-mime-database (1) - a program to build the Shared MIME-Info database cache
+update-smart-drivedb (8) - update smartmontools drive database
+update-software-center (8) - Update the database for software-center
+updatedb (8)         - update a database for mlocate
+urlgrabber (1)       - a high-level cross-protocol url-grabber.
+va_arg (3)           - variable argument lists
+va_copy (3)          - variable argument lists
+va_end (3)           - variable argument lists
+va_start (3)         - variable argument lists
+VACUUM (7)           - garbage-collect and optionally analyze a database
+vacuumdb (1)         - garbage-collect and analyze a PostgreSQL database
+vacuumlo (1)         - remove orphaned large objects from a PostgreSQL database
+validlocale (8)      - Test if a given locale is available
+Variable::Magic (3pm) - Associate user-defined magic to variables from Perl.
+variables (5)        - Format of specifying variable names to SNMP tools.
+vigra-config (1)     - get information about the installed version of VIGRA
+wftopfa (1)          - Convert a Wadalab base font to Postscript .PFA (or .PFB) format using ghostscript
+wifi (1)             - enable/disable internal wifi (wireless lan) device
+WITH (7)             - retrieve rows from a table or view
+wsimport (1)         - Generates JAX-WS portable artifacts that can be packaged in a web application archive (WAR) file and prov...
+wwan (1)             - enable/disable internal wireless wan (umts) device
+WWW::RobotRules (3pm) - database of robots.txt-derived permissions
+X (7)                - a portable, network-transparent window system
+X11::Protocol::Connection (3pm) - Perl module abstract base class for X11 client to server connections
+x86_64-linux-gnu-as (1) - the portable GNU assembler.
+x86_64-linux-gnu-readelf (1) - Displays information about ELF files.
+x86_64-linux-gnu-strings (1) - print the strings of printable characters in files.
+Xau (3)              - X authority database routines
+XauDisposeAuth (3)   - X authority database routines
+XauFileName (3)      - X authority database routines
+XauGetAuthByAddr (3) - X authority database routines
+XauGetBestAuthByAddr (3) - X authority database routines
+XauLockAuth (3)      - X authority database routines
+XauReadAuth (3)      - X authority database routines
+XauUnlockAuth (3)    - X authority database routines
+XauWriteAuth (3)     - X authority database routines
+XChangeActivePointerGrab (3) - grab the pointer
+XcmsCIELab (3)       - Xcms color structure
+XcmsCIELabQueryMaxC (3) - obtain the CIE L*a*b* coordinates
+XcmsCIELabQueryMaxL (3) - obtain the CIE L*a*b* coordinates
+XcmsCIELabQueryMaxLC (3) - obtain the CIE L*a*b* coordinates
+XcmsCIELabQueryMinL (3) - obtain the CIE L*a*b* coordinates
+XcupStoreColors (3)  - initialize shareable colormap entries at specific locations
+xdg-mime (1)         - command line tool for querying information about file type handling and adding descriptions for new file ...
+XDisableAccessControl (3) - control host access and host control structure
+XEnableAccessControl (3) - control host access and host control structure
+XFreeDeviceList (3)  - list available input devices
+XFreeExtensionList (3) - list available extensions
+XGetErrorDatabaseText (3) - default error handlers
+XGrabButton (3)      - grab pointer buttons
+XGrabDevice (3)      - grab/release the specified extension device
+XGrabDeviceButton (3) - grab/ungrab extension input device buttons
+XGrabDeviceKey (3)   - grab/ungrab extension input device Keys
+XGrabKey (3)         - grab keyboard keys
+XGrabKeyboard (3)    - grab the keyboard
+XGrabPointer (3)     - grab the pointer
+XGrabServer (3)      - grab the server
+XIFreeDeviceInfo (3) - get information about devices.
+XIGrabButton (3)     - grab/ungrab buttons or keys
+XIGrabDevice (3)     - grab or ungrab the device.
+XIGrabEnter (3)      - grab/ungrab enter or focus in events.
+XIGrabFocusIn (3)    - grab/ungrab enter or focus in events.
+XIGrabKeycode (3)    - grab/ungrab buttons or keys
+XIGrabTouchBegin (3) - grab/ungrab buttons or keys
+XIQueryDevice (3)    - get information about devices.
+XIUngrabButton (3)   - grab/ungrab buttons or keys
+XIUngrabDevice (3)   - grab or ungrab the device.
+XIUngrabEnter (3)    - grab/ungrab enter or focus in events.
+XIUngrabFocusIn (3)  - grab/ungrab enter or focus in events.
+XIUngrabKeycode (3)  - grab/ungrab buttons or keys
+XIUngrabTouchBegin (3) - grab/ungrab buttons or keys
+XkbAllocCompatMap (3) - Allocate a new compatibility map if you do not already have one available
+XkbChangeEnabledControls (3) - Manipulates the EnabledControls control
+XkbGetDetectableAutoRepeat (3) - Determines whether or not the server supports DetectableAutoRepeat
+XkbGetDeviceInfo (3) - Determine whether the X server allows Xkb access to particular capabilities of input devices other than t...
+XkbGetKeyTypes (3)   - Obtain the list of available key types in the server's keyboard mapping
+XkbGetNamedGeometry (3) - Loads a keyboard geometry description from this database by name
+XkbKeyActionEntry (3) - Returns a pointer to the key action corresponding to group grp and shift level lvl from the two-dimensio...
+XkbSetDetectableAutoRepeat (3) - Sets DetectableAutoRepeat
+XkbSetIgnoreLockMods (3) - Sets the modifiers that, if locked, are not to be reported in matching events to passive grabs
+XListExtensions (3)  - list available extensions
+XListInputDevices (3) - list available input devices
+xml2-config (1)      - script to get information about the installed version of GNOME-XML
+XML::LibXML::Devel (3pm) - makes functions from LibXML.xs available
+XML::LibXML::Node (3pm) - Abstract Base Class of XML::LibXML Nodes
+XML::SAX::PurePerl::Reader (3pm) - Abstract Reader factory class
+XML::XPathEngine (3pm) - a re-usable XPath engine for DOM-like trees
+XQueryExtension (3)  - list available extensions
+xqxdecode (1)        - Decode a XQX stream into human readable form.
+xrdb (1)             - X server resource database utility
+XrmCombineDatabase (3) - merge resource databases
+XrmCombineFileDatabase (3) - merge resource databases
+XrmDestroyDatabase (3) - retrieve and store resource databases
+XrmEnumerateDatabase (3) - enumerate resource database entries
+XrmGetDatabase (3)   - retrieve and store resource databases
+XrmGetFileDatabase (3) - retrieve and store resource databases
+XrmGetResource (3)   - retrieve database resources and search lists
+XrmGetStringDatabase (3) - retrieve and store resource databases
+XrmLocaleOfDatabase (3) - retrieve and store resource databases
+XrmMergeDatabases (3) - merge resource databases
+XrmPutFileDatabase (3) - retrieve and store resource databases
+XrmPutLineResource (3) - store database resources
+XrmPutResource (3)   - store database resources
+XrmPutStringResource (3) - store database resources
+XrmQGetResource (3)  - retrieve database resources and search lists
+XrmQGetSearchList (3) - retrieve database resources and search lists
+XrmQGetSearchResource (3) - retrieve database resources and search lists
+XrmQPutResource (3)  - store database resources
+XrmQPutStringResource (3) - store database resources
+XrmSetDatabase (3)   - retrieve and store resource databases
+XSetAfterFunction (3) - enable or disable synchronization
+xslt-config (1)      - script to get information about the installed version of libxslt
+XSynchronize (3)     - enable or disable synchronization
+xtables-multi (8)    - xtables multi-link binary for netfilter's iptables and ip6tables
+XtAddActions (3)     - register an action table
+XtAddGrab (3)        - redirect user input to a modal widget
+XtAllocateGC (3)     - obtain a sharable GC with modifiable fields
+XtAppAddActions (3)  - register an action table
+XtAppGetErrorDatabase (3) - obtain error database
+XtAppGetErrorDatabaseText (3) - obtain error database
+XtAugmentTranslations (3) - manage translation tables
+XtDatabase (3)       - initialize, open, or close a display
+XtDisplay (3)        - obtain window information about a widget
+XtDisplayOfObject (3) - obtain window information about a widget
+XTestGrabControl (3) - XTest extension functions
+XtGetErrorDatabase (3) - obtain error database
+XtGetErrorDatabaseText (3) - obtain error database
+XtGetGC (3)          - obtain and destroy a sharable GC
+XtGetKeysymTable (3) - query keysyms and keycodes
+XtGrabButton (3)     - manage grabs
+XtGrabKey (3)        - manage grabs
+XtGrabKeyboard (3)   - manage grabs
+XtGrabPointer (3)    - manage grabs
+XtInstallAccelerators (3) - managing accelerator tables
+XtInstallAllAccelerators (3) - managing accelerator tables
+XtOverrideTranslations (3) - manage translation tables
+XtParseAcceleratorTable (3) - managing accelerator tables
+XtParseTranslationTable (3) - manage translation tables
+XtRegisterDrawable (3) - register a drawable with the Intrinsics event dispatcher
+XtRegisterGrabAction (3) - register button and key grabs
+XtReleaseGC (3)      - obtain and destroy a sharable GC
+XtRemoveGrab (3)     - redirect user input to a modal widget
+XtScreen (3)         - obtain window information about a widget
+XtScreenDatabase (3) - initialize, open, or close a display
+XtScreenOfObject (3) - obtain window information about a widget
+XtUngrabButton (3)   - manage grabs
+XtUngrabKey (3)      - manage grabs
+XtUngrabKeyboard (3) - manage grabs
+XtUngrabPointer (3)  - manage grabs
+XtUninstallTranslations (3) - manage translation tables
+XtUnregisterDrawable (3) - register a drawable with the Intrinsics event dispatcher
+XtWindow (3)         - obtain window information about a widget
+XtWindowOfObject (3) - obtain window information about a widget
+XUngrabButton (3)    - grab pointer buttons
+XUngrabDevice (3)    - grab/release the specified extension device
+XUngrabDeviceButton (3) - grab/ungrab extension input device buttons
+XUngrabDeviceKey (3) - grab/ungrab extension input device Keys
+XUngrabKey (3)       - grab keyboard keys
+XUngrabKeyboard (3)  - grab the keyboard
+XUngrabPointer (3)   - grab the pointer
+XUngrabServer (3)    - grab the server
+XVaCreateNestedList (3) - allocate a nested variable argument list
+zipinfo (1)          - list detailed information about a ZIP archive
+zjsdecode (1)        - Decode a ZjStream into human readable form.

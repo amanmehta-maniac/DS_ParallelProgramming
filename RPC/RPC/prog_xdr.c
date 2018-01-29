@@ -10,9 +10,9 @@ xdr_intpair (XDR *xdrs, intpair *objp)
 {
 	register int32_t *buf;
 
-	int i;
-	 if (!xdr_vector (xdrs, (char *)objp->a, 50,
-		sizeof (char), (xdrproc_t) xdr_char))
+	 if (!xdr_int (xdrs, &objp->a))
+		 return FALSE;
+	 if (!xdr_int (xdrs, &objp->b))
 		 return FALSE;
 	return TRUE;
 }
@@ -22,7 +22,7 @@ xdr_String (XDR *xdrs, String *objp)
 {
 	register int32_t *buf;
 
-	 if (!xdr_array (xdrs, (char **)&objp->String_val, (u_int *) &objp->String_len, 10000,
+	 if (!xdr_array (xdrs, (char **)&objp->String_val, (u_int *) &objp->String_len, 100,
 		sizeof (char), (xdrproc_t) xdr_char))
 		 return FALSE;
 	return TRUE;

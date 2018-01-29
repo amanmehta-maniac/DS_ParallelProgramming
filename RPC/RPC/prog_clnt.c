@@ -10,12 +10,27 @@
 static struct timeval TIMEOUT = { 25, 0 };
 
 int *
-num_chunks_1(intpair *argp, CLIENT *clnt)
+add_1(intpair *argp, CLIENT *clnt)
 {
 	static int clnt_res;
 
 	memset((char *)&clnt_res, 0, sizeof(clnt_res));
-	if (clnt_call (clnt, num_chunks,
+	if (clnt_call (clnt, ADD,
+		(xdrproc_t) xdr_intpair, (caddr_t) argp,
+		(xdrproc_t) xdr_int, (caddr_t) &clnt_res,
+		TIMEOUT) != RPC_SUCCESS) {
+		return (NULL);
+	}
+	return (&clnt_res);
+}
+
+int *
+sub_1(intpair *argp, CLIENT *clnt)
+{
+	static int clnt_res;
+
+	memset((char *)&clnt_res, 0, sizeof(clnt_res));
+	if (clnt_call (clnt, SUB,
 		(xdrproc_t) xdr_intpair, (caddr_t) argp,
 		(xdrproc_t) xdr_int, (caddr_t) &clnt_res,
 		TIMEOUT) != RPC_SUCCESS) {
@@ -25,13 +40,13 @@ num_chunks_1(intpair *argp, CLIENT *clnt)
 }
 
 String *
-get_chunk_1(int *argp, CLIENT *clnt)
+sendstring_1(void *argp, CLIENT *clnt)
 {
 	static String clnt_res;
 
 	memset((char *)&clnt_res, 0, sizeof(clnt_res));
-	if (clnt_call (clnt, get_chunk,
-		(xdrproc_t) xdr_int, (caddr_t) argp,
+	if (clnt_call (clnt, SENDSTRING,
+		(xdrproc_t) xdr_void, (caddr_t) argp,
 		(xdrproc_t) xdr_String, (caddr_t) &clnt_res,
 		TIMEOUT) != RPC_SUCCESS) {
 		return (NULL);
