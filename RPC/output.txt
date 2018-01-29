@@ -1,0 +1,21 @@
+cgproxy (8)          - a proxy for cgmanager
+dh_doxygen (1)       - helps with packaging doxygen-generated documentation
+doxygen (1)          - documentation system for various programming languages
+hydra_pmi_proxy (1)  - Internal exectuable used by Hydra
+mpris-proxy (1)      - Bluetooth mpris-proxy
+ne_session_proxy (3) - configure proxy servers
+ne_session_socks_proxy (3) - configure proxy servers
+ne_session_system_proxy (3) - configure proxy servers
+ne_set_addrlist (3)  - configure proxy servers
+ne_set_proxy_auth (3) - register authentication callbacks
+Net::DBus::ProxyObject (3pm) - Implement objects to export to the bus
+proxy (1)            - Display the proxy server that should be used to reach a given a network resource
+smproxy (1)          - Session Manager Proxy
+systemd-bus-proxyd (8) - Connect STDIO or a socket to a given bus address
+systemd-bus-proxyd.service (8) - Proxy classic D-Bus clients to kdbus
+systemd-bus-proxyd.socket (8) - Proxy classic D-Bus clients to kdbus
+systemd-socket-proxyd (8) - Bidirectionally proxy local sockets to another (possibly remote) socket.
+TIFFcolor (3tiff)    - color conversion routines.
+virtfs-proxy-helper (1) - QEMU 9p virtfs proxy filesystem helper
+XcmsCIExyY (3)       - Xcms color structure
+XcmsCIEXYZ (3)       - Xcms color structure
