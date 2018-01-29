@@ -106,9 +106,7 @@ int main(int argc, char* argv[]){
 		}
  		int stride = max(nsize/(size-1),1);
 
-		// cout << "det" << endl;
 		det = determinant(A, nsize);
-		// cout << det << endl;
 	    if (det == 0){
 	        cout << "Singular matrix, can't find its inverse";
 	        return 0;
@@ -116,47 +114,36 @@ int main(int argc, char* argv[]){
 		int row_end = stride;
  		int nlast = nsize;
 	    for(int i = 1; i < size; i++){
-	    	if(row_number_start > nsize){
-				int gar1 = -1;
-				MPI_Send(&gar1,1,MPI_INT,i,0,MPI_COMM_WORLD);
-			}
-			else{
-		    	MPI_Send(&nsize,1,MPI_INT,i,0,MPI_COMM_WORLD);
-		    	if(row_end < nlast && i!=size-1){
-			 		MPI_Send(&row_number_start,1,MPI_INT,i,1,MPI_COMM_WORLD);
-			 		MPI_Send(&row_end,1,MPI_INT,i,2,MPI_COMM_WORLD);
-		    	}
-		    	else{
-			 		MPI_Send(&row_number_start,1,MPI_INT,i,1,MPI_COMM_WORLD);
-			 		MPI_Send(&nlast,1,MPI_INT,i,2,MPI_COMM_WORLD);
-		    	}
-		    	for(int j = 0; j < nsize; j++){
-			    	MPI_Send(&A[j],nsize,MPI_INT,i,3,MPI_COMM_WORLD);
-		    	}
-			}
+	    	MPI_Send(&nsize,1,MPI_INT,i,0,MPI_COMM_WORLD);
+	    	// cout<<row_number_start<< " " << row_end<< endl;
+	    	if(i!=size-1){
+		 		MPI_Send(&row_number_start,1,MPI_INT,i,1,MPI_COMM_WORLD);
+		 		MPI_Send(&row_end,1,MPI_INT,i,2,MPI_COMM_WORLD);
+	    	}
+	    	else{
+		 		MPI_Send(&row_number_start,1,MPI_INT,i,1,MPI_COMM_WORLD);
+		 		MPI_Send(&nlast,1,MPI_INT,i,2,MPI_COMM_WORLD);
+	    	}
+	    	for(int j = 0; j < nsize; j++){
+		    	MPI_Send(&A[j],nsize,MPI_INT,i,3,MPI_COMM_WORLD);
+	    	}
 	 		row_number_start += stride;
-	 		row_end = row_number_start + stride;
+	 		row_end = min(nlast, row_number_start + stride);
 	    }
 	    int flags;
 	    int START=0,END=stride;
 	    for (int i = 1; i < size; ++i)
 	    {
-	    	if(START > nsize){
-				break;
-			}
-			if(i==size-1 || END>=nsize){
-				END = N;
-			}
+	    	if(i==size-1){
+	    		END = nsize;
+	    	}
 	    	for(int j = START; j<END; j++){
 	    		MPI_Recv(&ADJ[j], nsize, MPI_FLOAT, i, j, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
 
 	    	}
 	    	START = END;
-	    	END = START + stride;
-	    	/* code */
+	    	END = min(nlast, START + stride);
 	    }
-	    // trace(det);
-	    // cout<<"Inverse of given matrix is: "<<"\n";
         cout<<setprecision(2);
 		for (int i=0; i<nsize; i++){
 	        for (int j=0; j<nsize; j++){
@@ -169,24 +156,19 @@ int main(int argc, char* argv[]){
 	else{
 		int Start;
 		int End;
-		// int nn = 4;
 		int nsize;
 		MPI_Comm_rank (MPI_COMM_WORLD, &rank);
 		MPI_Recv(&nsize,1,MPI_INT,0,0,MPI_COMM_WORLD,MPI_STATUS_IGNORE);
-		// cout<<"at ran:"<< rank << "nsze: "<< nsize<<"\n";
-		if(nsize > 0){
-			MPI_Recv(&Start,1,MPI_INT,0,1,MPI_COMM_WORLD,MPI_STATUS_IGNORE);
-			MPI_Recv(&End,1,MPI_INT,0,2,MPI_COMM_WORLD,MPI_STATUS_IGNORE);
-			// cout<<nsize<<"dsfadwf\n";
-			for(int j = 0; j < nsize; j++){
-		    	MPI_Recv(&A[j],nsize,MPI_INT,0,3,MPI_COMM_WORLD,MPI_STATUS_IGNORE);
-		    	// cout<<"at rank: " << rank << "val: "<<A[j][0]<<"\n";
-	    	}
-			// cout << "luls" << rank << " " << Start << " " << End << endl;
-			adjoint(A, ADJ, Start, End, nsize);
-			for(int i=Start;i<End;i++){
-				MPI_Send(&ADJ[i], nsize, MPI_FLOAT, 0, i, MPI_COMM_WORLD);
-			}
+		MPI_Recv(&Start,1,MPI_INT,0,1,MPI_COMM_WORLD,MPI_STATUS_IGNORE);
+		MPI_Recv(&End,1,MPI_INT,0,2,MPI_COMM_WORLD,MPI_STATUS_IGNORE);
+		// cout<<nsize<<"dsfadwf\n";
+		for(int j = 0; j < nsize; j++){
+	    	MPI_Recv(&A[j],nsize,MPI_INT,0,3,MPI_COMM_WORLD,MPI_STATUS_IGNORE);
+    	}
+		// cout << "luls" << rank << " " << Start << " " << End << endl;
+		adjoint(A, ADJ, Start, End, nsize);
+		for(int i=Start;i<End;i++){
+			MPI_Send(&ADJ[i], nsize, MPI_FLOAT, 0, i, MPI_COMM_WORLD);
 		}
 		// MPI_Send(&End,1,MPI_INT,0,3,MPI_COMM_WORLD);
 	}
