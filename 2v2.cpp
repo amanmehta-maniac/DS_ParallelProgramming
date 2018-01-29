@@ -104,7 +104,8 @@ int main(int argc, char* argv[]){
 				cin>>A[i][j];
 			}
 		}
- 		int stride = max(nsize/(size-1),1); 
+ 		int stride = max(nsize/(size-1),1);
+
 		// cout << "det" << endl;
 		det = determinant(A, nsize);
 		// cout << det << endl;
@@ -114,7 +115,7 @@ int main(int argc, char* argv[]){
 	    }
 		int row_end;
  		int nlast = nsize;
-	    for(int i = 1; i < size; i++){
+	    for(int i = 1; i < min(size,nsize); i++){
 	    	MPI_Send(&nsize,1,MPI_INT,i,0,MPI_COMM_WORLD);
 	    	if(i!=size-1){
 		 		MPI_Send(&row_number_start,1,MPI_INT,i,1,MPI_COMM_WORLD);

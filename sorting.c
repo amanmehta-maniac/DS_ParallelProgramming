@@ -11,9 +11,14 @@ int main (int argc, char* argv[])
 
 
   if(rank==0){
-  		
+  		int x;
+  		for (int i = 1; i < size; ++i)
+  		{
+  			MPI_Recv(&x,1,MPI_INT,i,123,MPI_COMM,status);
+  		}
   }
   else{
+  		MPI_Send(&rank, 1, MPI_INT, 0, 123, MPI_COMM);
   }
   // printf( "Hello world from process %d of %d\n", rank, size );
   MPI_Finalize();
